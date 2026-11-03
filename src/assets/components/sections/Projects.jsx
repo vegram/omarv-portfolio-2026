@@ -79,7 +79,7 @@ export const Projects = () => {
               <h3 className="text-2xl font-semibold mb-4">
                 City of Ocoee Content Enhancement
               </h3>
-              <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-4">
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 md:max-w-3xl mx-auto">
                 <img
                   src="src/assets/project3/playground1.avif.jpeg"
                   alt="playground-infographic-1"
