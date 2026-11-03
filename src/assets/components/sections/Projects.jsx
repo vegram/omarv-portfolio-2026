@@ -16,17 +16,17 @@ export const Projects = () => {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
                 <img
-                  src="{`${import.meta.env.BASE_URL}src/assets/project1/awareness.png`}"
+                  src={`${import.meta.env.BASE_URL}src/assets/project1/awareness.png`}
                   alt="Awareness ad for foot health"
                   className="object-cover rounded-lg shadow-md"
                 />
                 <img
-                  src="{`${import.meta.env.BASE_URL}src/assets/project1/magnolia-fb-flyer.png`}"
+                  src={`${import.meta.env.BASE_URL}src/assets/project1/magnolia-fb-flyer.png`}
                   alt="Magnolia foot care FB flyer"
                   className="object-cover rounded-lg shadow-md"
                 />
                 <img
-                  src="{`${import.meta.env.BASE_URL}src/assets/project1/draft1.png`}"
+                  src={`${import.meta.env.BASE_URL}src/assets/project1/draft1.png`}
                   alt="Dr. Floyd infographic"
                   className="object-fill rounded-lg shadow-md"
                 />
@@ -50,12 +50,12 @@ export const Projects = () => {
               <h3 className="text-2xl font-semibold mb-4">Content Creation</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                 <img
-                  src="{`${import.meta.env.BASE_URL}src/assets/project2/mediacarousel.png`}"
+                  src={`${import.meta.env.BASE_URL}src/assets/project2/mediacarousel.png`}
                   alt="digital media carousel"
                   className="rounded-lg shadow-md"
                 />
                 <img
-                  src="{`${import.meta.env.BASE_URL}src/assets/project2/igfeed.png`}"
+                  src={`${import.meta.env.BASE_URL}src/assets/project2/igfeed.png`}
                   alt="instagram feed"
                   className="rounded-lg shadow-md"
                 />
@@ -81,19 +81,19 @@ export const Projects = () => {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 md:max-w-3xl mx-auto">
                 <img
-                  src="{`${import.meta.env.BASE_URL}src/assets/project3/playground1.avif.jpeg`}"
+                  src={`${import.meta.env.BASE_URL}src/assets/project3/playground1.avif.jpeg`}
                   alt="playground-infographic-1"
                   className="object-fill rounded-lg shadow-md"
                 />
                 <img
-                  src="{`${import.meta.env.BASE_URL}src/assets/project3/playground2.avif.jpeg`}"
+                  src={`${import.meta.env.BASE_URL}src/assets/project3/playground2.avif.jpeg`}
                   alt="playground-infographic-2"
                   className="object-fill rounded-lg shadow-md"
                 />
               </div>
               <div className="w-full mb-4">
                 <img
-                  src="src/assets/project3/starkelake.avif.jpeg"
+                  src={`${import.meta.env.BASE_URL}src/assets/project3/starkelake.avif.jpeg`}
                   alt="fb-starkelake-1"
                   className="w-full md:w-3/4 mx-auto h-auto object-cover rounded-lg shadow-md"
                 />
