@@ -10,7 +10,7 @@ export const About = () => {
         <div className="max-w-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">About Me</h2>
           <img
-            src="src/assets/linkedinpic.jpeg"
+            src="{`${import.meta.env.BASE_URL}src/assets/linkedinpic.jpeg`}"
             alt="Omar Vega"
             className="w-48 h-48 rounded-full mx-auto mb-6"
           />
