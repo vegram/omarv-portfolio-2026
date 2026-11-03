@@ -10,18 +10,19 @@ export const About = () => {
         <div className="max-w-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">About Me</h2>
           <img
-            src="https://media.licdn.com/dms/image/v2/D4E03AQFoqQoLrQ4r9Q/profile-displayphoto-shrink_800_800/B4EZwgpw6DIkAc-/0/1770074346412?e=1778716800&v=beta&t=UFmR0spVXRwYsT4xhUJ9B9ScA078JwLK-X62IJ7T65c"
+            src="src/assets/linkedinpic.jpeg"
             alt="Omar Vega"
             className="w-48 h-48 rounded-full mx-auto mb-6"
           />
           <p className="text-lg mb-4">
-            I’m a digital media professional with experience in social media
-            management and content creation, currently working within Parks &
-            Recreation for the City of Ocoee.
+            I am currently studying Digital Media at the University of Central
+            Florida, expecting to graduate in Spring 2027. I am also working
+            within Parks & Recreation for the City of Ocoee. In my spare time, I
+            enjoy gaming, golf and watching sports.
           </p>
           <p className="text-lg">
             My expertise includes social media management, content creation, and
-            digital marketing. I thrive in fast-paced environments and am always
+            digital marketing. I thrive in technical environments and am always
             eager to learn new skills and stay ahead of industry trends.
           </p>
         </div>

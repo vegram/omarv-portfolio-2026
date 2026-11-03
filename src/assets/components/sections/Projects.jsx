@@ -16,17 +16,17 @@ export const Projects = () => {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
                 <img
-                  src="/src/assets/project1/awareness.png"
+                  src="src/assets/project1/awareness.png"
                   alt="Awareness ad for foot health"
                   className="object-cover rounded-lg shadow-md"
                 />
                 <img
-                  src="/src/assets/project1/magnolia-fb-flyer.png"
+                  src="src/assets/project1/magnolia-fb-flyer.png"
                   alt="Magnolia foot care FB flyer"
                   className="object-cover rounded-lg shadow-md"
                 />
                 <img
-                  src="/src/assets/project1/draft1.png"
+                  src="src/assets/project1/draft1.png"
                   alt="Dr. Floyd infographic"
                   className="object-fill rounded-lg shadow-md"
                 />
@@ -35,6 +35,7 @@ export const Projects = () => {
                 Developed and executed a successful social media management
                 strategy for Magnolia Foot Clinic on Facebook.
               </p>
+              <p>Software used: Adobe Creative Suite</p>
               <a
                 href="https://www.facebook.com/profile.php?id=100083498356871"
                 target="_blank"
@@ -49,12 +50,12 @@ export const Projects = () => {
               <h3 className="text-2xl font-semibold mb-4">Content Creation</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                 <img
-                  src="/src/assets/project2/mediacarousel.png"
+                  src="src/assets/project2/mediacarousel.png"
                   alt="digital media carousel"
                   className="rounded-lg shadow-md"
                 />
                 <img
-                  src="/src/assets/project2/igfeed.png"
+                  src="src/assets/project2/igfeed.png"
                   alt="instagram feed"
                   className="rounded-lg shadow-md"
                 />
@@ -63,6 +64,7 @@ export const Projects = () => {
                 Created engaging content for a variety of platforms, including
                 short-form videos, social media updates, and infographics.
               </p>
+              <p>Focused on gaming and student lifestyle content.</p>
               <a
                 href="https://linktr.ee/vegram_ "
                 target="_blank"
@@ -74,33 +76,34 @@ export const Projects = () => {
             </article>
 
             <article>
-              <h3 className="text-2xl font-semibold mb-4">Web Development</h3>
-              <div className="flex flex-col md:flex-row gap-6 mb-4">
+              <h3 className="text-2xl font-semibold mb-4">
+                City of Ocoee Content Enhancement
+              </h3>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-4 mb-4">
                 <img
-                  src="/src/assets/project3/quizapp1.png"
-                  alt="quiz app screenshot 1"
-                  className="w-full md:w-1/2 h-72 md:h-96 object-cover rounded-lg shadow-md"
+                  src="src/assets/project3/playground1.avif.jpeg"
+                  alt="playground-infographic-1"
+                  className="object-fill rounded-lg shadow-md"
                 />
                 <img
-                  src="/src/assets/project3/quizapp2.png"
-                  alt="quiz app screenshot 2"
-                  className="w-full md:w-1/2 h-72 md:h-96 object-cover rounded-lg shadow-md"
+                  src="src/assets/project3/playground2.avif.jpeg"
+                  alt="playground-infographic-2"
+                  className="object-fill rounded-lg shadow-md"
+                />
+              </div>
+              <div className="w-full mb-4">
+                <img
+                  src="src/assets/project3/starkelake.avif.jpeg"
+                  alt="fb-starkelake-1"
+                  className="w-full md:w-3/4 mx-auto h-auto object-cover rounded-lg shadow-md"
                 />
               </div>
               <p className="mb-4">
-                Designed and developed a quiz application using React.
+                Developed a layout that can be replicated across existing city
+                content, focusing on improving the presentation of information
+                and user engagement.
               </p>
-              <p>
-                Project link:{" "}
-                <a
-                  href="https://vegram.github.io/quizapp/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-blue-400 hover:underline"
-                >
-                  https://vegram.github.io/quizapp/
-                </a>
-              </p>
+              <p>Software used: Canva</p>
             </article>
           </div>
         </div>
