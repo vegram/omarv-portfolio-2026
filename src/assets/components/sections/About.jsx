@@ -1,5 +1,13 @@
 import { RevealOnScroll } from "../RevealOnScroll";
 
+const images = import.meta.glob(
+  "/src/assets/**/*.{png,jpg,jpeg,avif,webp,gif,svg}",
+  {
+    eager: true,
+    import: "default",
+  },
+);
+
 export const About = () => {
   return (
     <section
@@ -10,7 +18,7 @@ export const About = () => {
         <div className="max-w-3xl text-center">
           <h2 className="text-4xl font-bold mb-6">About Me</h2>
           <img
-            src={`${import.meta.env.BASE_URL}src/assets/linkedinpic.jpeg`}
+            src={images["/src/assets/linkedinpic.jpeg"]}
             alt="Omar Vega"
             className="w-48 h-48 rounded-full mx-auto mb-6"
           />
