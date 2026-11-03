@@ -1,12 +1,12 @@
 import { RevealOnScroll } from "../RevealOnScroll";
-
-const images = import.meta.glob(
-  "/src/assets/**/*.{png,jpg,jpeg,avif,webp,gif,svg}",
-  {
-    eager: true,
-    import: "default",
-  },
-);
+import awareness from "../../project1/awareness.png";
+import magnoliaFlyer from "../../project1/magnolia-fb-flyer.png";
+import draftInfographic from "../../project1/draft1.png";
+import mediaCarousel from "../../project2/mediacarousel.png";
+import instagramFeed from "../../project2/igfeed.png";
+import playgroundOne from "../../project3/playground1.avif.jpeg";
+import playgroundTwo from "../../project3/playground2.avif.jpeg";
+import starkeLake from "../../project3/starkelake.avif.jpeg";
 
 export const Projects = () => {
   return (
@@ -24,17 +24,17 @@ export const Projects = () => {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-3 gap-4 mb-4">
                 <img
-                  src={images["/src/assets/project1/awareness.png"]}
+                  src={awareness}
                   alt="Awareness ad for foot health"
                   className="object-cover rounded-lg shadow-md"
                 />
                 <img
-                  src={images["/src/assets/project1/magnolia-fb-flyer.png"]}
+                  src={magnoliaFlyer}
                   alt="Magnolia foot care FB flyer"
                   className="object-cover rounded-lg shadow-md"
                 />
                 <img
-                  src={images["/src/assets/project1/draft1.png"]}
+                  src={draftInfographic}
                   alt="Dr. Floyd infographic"
                   className="object-fill rounded-lg shadow-md"
                 />
@@ -58,12 +58,12 @@ export const Projects = () => {
               <h3 className="text-2xl font-semibold mb-4">Content Creation</h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-4">
                 <img
-                  src={images["/src/assets/project2/mediacarousel.png"]}
+                  src={mediaCarousel}
                   alt="digital media carousel"
                   className="rounded-lg shadow-md"
                 />
                 <img
-                  src={images["/src/assets/project2/igfeed.png"]}
+                  src={instagramFeed}
                   alt="instagram feed"
                   className="rounded-lg shadow-md"
                 />
@@ -89,19 +89,19 @@ export const Projects = () => {
               </h3>
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-4 md:max-w-3xl mx-auto">
                 <img
-                  src={images["/src/assets/project3/playground1.avif.jpeg"]}
+                  src={playgroundOne}
                   alt="playground-infographic-1"
                   className="object-fill rounded-lg shadow-md"
                 />
                 <img
-                  src={images["/src/assets/project3/playground2.avif.jpeg"]}
+                  src={playgroundTwo}
                   alt="playground-infographic-2"
                   className="object-fill rounded-lg shadow-md"
                 />
               </div>
               <div className="w-full mb-4">
                 <img
-                  src={images["/src/assets/project3/starkelake.avif.jpeg"]}
+                  src={starkeLake}
                   alt="fb-starkelake-1"
                   className="w-full md:w-3/4 mx-auto h-auto object-cover rounded-lg shadow-md"
                 />
